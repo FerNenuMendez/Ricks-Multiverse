@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "RickMorty";
+  src: url("../fuentes/get_schwifty.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Robot";
+  src: url(../fuentes/Rabotnik.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../recursos/876590.png);
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  min-height: 900px;
+}
+.index h1 {
+  font-family: "RickMorty";
+  color: lightseagreen;
+  text-shadow: 2px 2px 0px yellowgreen;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.index h2 {
+  display: flex;
+  font-family: "Roboto";
+  color: lightseagreen;
+  text-shadow: 1px 1px 0px yellowgreen;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 5rem;
+  margin-bottom: 7rem;
+}
+.index__busqueda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+.index__busqueda h3 {
+  font-family: "RickMorty";
+  color: lightseagreen;
+  text-shadow: 2px 2px 0px yellowgreen;
+  font-size: 2.5rem;
+}
+.index__busqueda input {
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+.index__busqueda__buscar {
+  font-family: "Roboto";
+  background-color: rgb(175, 208, 108);
+  padding: 8px;
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+  box-shadow: 3px 3px 0px lightseagreen;
+  margin-bottom: 1rem;
+}
+.index__resultados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.resultados {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resultados h2 {
+  font-family: "Roboto";
+  color: lightseagreen;
+  text-shadow: 2px 2px 0px yellowgreen;
+  font-size: 4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: 1rem;
+  border-radius: 25px;
+  border: 3px solid yellowgreen;
+  box-shadow: 4px 4px 0px lightseagreen;
+}
+.card__h3 {
+  font-family: "Roboto";
+  text-decoration: underline;
+  margin-top: 0.5rem;
+}
+.card__p {
+  font-family: "Roboto";
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer div a img {
+  max-width: 3rem;
+}/*# sourceMappingURL=estilos.css.map */
