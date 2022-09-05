@@ -1,0 +1,16 @@
+@media(min-width:320px)and(max-width:540px){
+    .index{
+        text-align: center;
+    }
+    .resultados__h2{
+        font-size: 0.5rem;
+    }
+    .imgPhone img{
+        display:flex;
+        border-radius: 70%;
+        max-width: 20rem;
+        border: 2px solid yellowgreen;
+        box-shadow: 3px 3px 0px lightseagreen;
+    }
+}
+@media(min-width:541px)and(max-width:1024px){}
