@@ -1,6 +1,9 @@
 @media(min-width:320px)and(max-width:540px){
     .index{
         text-align: center;
+        & h1{
+            margin-top: 2rem;
+        }
     }
     .resultados__h2{
         font-size: 0.5rem;

@@ -87,6 +87,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     & h2{
         font-family: 'Roboto';
         color: lightseagreen;
@@ -106,19 +107,19 @@
     box-shadow: 4px 4px 0px lightseagreen;
     &__h3{
         font-family: 'Roboto';
-        text-decoration: underline;
         margin-top: 0.5rem;
+        text-align: center;
     }
     &__p{
         font-family: 'Roboto';
     }
-
 }
 .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
     & div a img{
         max-width: 3rem;
     }

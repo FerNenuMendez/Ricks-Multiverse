@@ -8,7 +8,7 @@ const cartaAlHtml=(array)=>{
     const arrayFinal = array.reduce((acc,element)=>{
         return acc+`
         <div class="card" id=${element.id}>
-            <img class="card__img" src=${element.image} alt=${element.name}>
+            <img class="cardimg" src=${element.image} alt=${element.name}>
             <h3 class="card__h3">${element.name}</h3>
             <p class="card__p">Species: ${element.species}</p> 
             <p class="card__p">Status: ${element.status}
