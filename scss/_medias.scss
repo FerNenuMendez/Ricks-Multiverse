@@ -15,6 +15,9 @@
         border: 2px solid yellowgreen;
         box-shadow: 3px 3px 0px lightseagreen;
     }
+    .navbar-toggler{
+        display: none;
+    }
 }
 @media(min-width:541px)and(max-width:1024px){
     
